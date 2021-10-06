@@ -1,0 +1,122 @@
+body{
+    background-color: rgb(252, 255, 214);
+    margin:0 auto;
+}
+
+header h1{
+    text-align: center;
+}
+
+header nav{
+    background-color: rgb(207, 43, 43) ;
+    padding: 22px;
+    text-align: center; 
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+header nav a{
+    color: white;
+    text-decoration: none;
+    justify-content: space-evenly;
+    margin: 30px;
+    flex-wrap: wrap;
+}
+main{
+    margin: 0 auto;
+    width: 1200px;
+}
+#origem .photo-bolo{
+    max-width: 200px;
+    height: auto;
+}
+
+#origem{
+    display: flex;
+}
+
+.origem-bolo{
+    background-color: white;
+}
+
+.origem-bolo{
+    padding: 10px;
+    font-weight: 200;
+}
+
+#sitacao{
+    background-color: rgb(128, 0, 0);
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+#receita .photo-bolo-receita{
+    max-width: 420px;
+    height: auto;
+}
+
+#receita{
+display: flex;
+align-items: flex-start;
+}
+
+#relacionamento .relacionamento{
+    height: auto;
+     width: 100%;
+     text-align:left;
+}
+
+.relacionamento{
+    background-color: white;
+    padding: 8px;
+    max-width: 180px;
+    height: auto;
+}
+#contato{
+    margin: 0;
+    padding: 0;
+}
+
+#contato p{
+    margin: 0;
+}
+#contato .button .btn{
+    color:black;
+    padding: 4px;
+    font-size: 1em;
+    background-color:green;
+}
+
+#contato .button .btn2{
+    color:black;
+    padding: 4px;
+    font-size: 1em;
+    background-color:red;   
+}
+#contato h2{
+    text-align: center;
+}
+
+#footer{
+    background-color:  #3e3e3e;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#footer .autorais{
+    color: white;
+}
+
+#footer .midias-sociais{
+    max-width: 28px;
+    height: auto;
+    margin: 20px;
+}
+
+
+@media (max-wadth:1265px) {
+     
+}
